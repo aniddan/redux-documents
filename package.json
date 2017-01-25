@@ -1,0 +1,19 @@
+{
+  "name": "redux-documents",
+  "version": "1.0.0",
+  "description": "Documents management for Redux",
+  "main": "lib/index.js",
+  "repository": {},
+  "author": "Iddan Aharonson",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
