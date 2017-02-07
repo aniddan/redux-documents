@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Documents management for Redux",
   "main": "lib/index.js",
-  "repository": { 
-    "type" : "git",
-    "url" : "https://github.com/aniddan/redux-documents.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aniddan/redux-documents.git"
   },
   "author": "Iddan Aharonson",
   "license": "MIT",
@@ -17,7 +17,8 @@
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
     "babel-preset-latest": "^6.22.0",
-    "babel-preset-stage-0": "^6.22.0"
+    "babel-preset-stage-0": "^6.22.0",
+    "redux": "^3.6.0"
   },
   "directories": {
     "example": "examples"
