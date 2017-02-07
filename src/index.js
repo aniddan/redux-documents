@@ -14,7 +14,7 @@ export default function Collection({ INSERT, UPDATE, DELETE, compare, extract = 
         });
       }
       case DELETE: {
-        return state.filter(doc => compare(doc, extracted));
+        return state.filter(doc => !compare(doc, extracted));
       }
     }
     return state;
